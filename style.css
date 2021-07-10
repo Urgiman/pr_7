@@ -36,6 +36,9 @@ p {
 .bg-grey {
     background-color: #EEEFF1;
 }
+.navbar-light .navbar-nav .active .nav-link {
+    color: #34547A;
+}
 .section_1 {
     padding-top: 46px;
 }

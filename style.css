@@ -1,3 +1,164 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+}
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color:#727272;
+}
+.container {
+    max-width: 1130px;
+}
+.section_p100 {
+    padding: 100px 0;
+}
+.bg-grey {
+    background-color: #EEEFF1;
+}
+.section_1 {
+    padding-top: 46px;
+}
+.section_1 .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+.section_1 .row_text {
+    padding: 146px 0;
+}
+.section_1 .row_text img {
+    padding-top: 40px;
+}
+.section_1 .row_text p {
+    padding: 60px 0;
+    margin: 0;
+}
+.section_1 .send_mess {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+    border: none;
+}
+.section_3 {
+    background-color: #34547A;
+}
+.section_3 .item_project {
+    padding-left: 70px;
+    background-size: 50px;
+    background-image: url('img/project.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.section_3 .item_project p {
+    margin-bottom: 0;
+    color: #fff;
+}
+.section_4 .skill_text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section_4 .progress {
+    height: 4px;
+}
+.section_4 .progress-bar {
+    width: 80%;
+    background-color: #34547A;
+}
+.section_4 img {
+    max-width: 100%;
+}
+.section_6 img {
+    max-width: 100%;
+}
+.section_7 {
+    padding: 70px 0 100px;
+}
+.section_7 img {
+    max-width: 100%;
+}
+.section_8 .form-control {
+    border: 0;
+    border-radius: 0;
+    font-size: 14px;
+}
+.section_8 textarea {
+    resize: none;
+}
+.section_8 button {
+    display: block;
+    margin: 0 auto;
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    border: 0;
+    border-radius: 0;
+
+}
+footer {
+    background-color: #34547A;
+    color: #fff;
+}
+footer p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 21px;
+}
+footer .social-link {
+    text-align: right;
+}
+@media (min-width: 1140px) {
+    .section_4 img {
+        max-width: 555px;
+    }
+}
+@media (max-width: 991px) {
+    .section_1 .row_text {
+        padding: 100px 0;
+    }
+    .section_1 .row_text img {
+        padding-top: 10px;
+    }   
+    .section_1 .send_mess {
+        display: block;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    footer,
+    footer .social-link {
+        text-align: center;
+    }
+    .section_7 div {
+        text-align: center;
+    }
+}
